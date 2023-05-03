@@ -1,0 +1,1 @@
+[Wed May 03 00:49:42.446692 2023] [proxy_fcgi:error] [pid 3203185:tid 140646480340736] [client 103.147.186.75:0] AH01071: Got error 'Primary script unknown', referer: http://wallet.pinksurfing.com/wp-login.php

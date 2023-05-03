@@ -1,0 +1,3 @@
+if ($host != "mobileapi.pinksurfing.com") {
+   return 301 $scheme://mobileapi.pinksurfing.com$request_uri;
+}

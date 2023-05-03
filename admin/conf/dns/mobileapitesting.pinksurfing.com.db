@@ -1,0 +1,18 @@
+$TTL 14400
+@    IN    SOA    ns1.pinksurfing.com.    root.mobileapitesting.pinksurfing.com. (
+                                            2023041601
+                                            7200
+                                            3600
+                                            1209600
+                                            180 )
+
+@	14400	IN	NS		ns1.pinksurfing.com.
+@	14400	IN	NS		ns2.pinksurfing.com.
+@	14400	IN	A		161.97.164.228
+www	14400	IN	CNAME		mobileapitesting.pinksurfing.com.
+ftp	14400	IN	CNAME		mobileapitesting.pinksurfing.com.
+mail	14400	IN	A		161.97.164.228
+webmail	14400	IN	CNAME		mail.mobileapitesting.pinksurfing.com.
+@	14400	IN	MX	0	mail.mobileapitesting.pinksurfing.com.
+@	14400	IN	TXT		"v=spf1 a mx ip4:161.97.164.228 -all"
+_dmarc	14400	IN	TXT		"v=DMARC1; p=quarantine; pct=100"

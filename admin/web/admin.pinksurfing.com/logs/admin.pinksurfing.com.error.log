@@ -1,0 +1,2 @@
+[Tue May 02 00:46:51.153251 2023] [proxy_fcgi:error] [pid 3171911:tid 140646346123008] [client 84.243.196.168:0] AH01071: Got error 'Primary script unknown', referer: http://admin.pinksurfing.com
+[Tue May 02 18:27:40.421094 2023] [proxy_fcgi:error] [pid 3203185:tid 140646572562176] [client 80.251.219.111:0] AH01071: Got error 'Primary script unknown', referer: http://admin.pinksurfing.com/wp-login.php

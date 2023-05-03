@@ -1,0 +1,3 @@
+if ($host != "wallet.pinksurfing.com") {
+   return 301 $scheme://wallet.pinksurfing.com$request_uri;
+}
